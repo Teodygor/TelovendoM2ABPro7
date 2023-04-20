@@ -1,0 +1,148 @@
+<!DOCTYPE html><!--"M2 ABPro 4"-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Te lo Vendo</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <hr>
+ <header>
+        <div class="container-fluid"> <!--"navbar"-->
+           <nav class="navbar navbar-expand-md bg-warning navbar-light" data-bs-theme="light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="telovendo.html"><img src="img/telovendologo.jpg" width="100" height="50" alt="telovendologo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  s              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="menu1.html">Menu 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="estadisticas.html">Estadísticas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar en TeloVendo" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+     </header>
+
+      <main class="container-fluid">
+         <table id="myTable" class="table table-success table-striped"><!--"creación de tabla"-->
+         <thead> <!--"Encabezado Tabla"-->
+          <tr>
+              <th>Productos</th> 
+              <th>Código</th>     
+              <th>Pasillo</th>   
+              <th>Repisa</th>
+              <th>Precio</th>
+          </tr>
+        </thead>
+           <tbody>
+          <tr><!--"Registro 1"-->
+              <td>Lampara</td>
+              <td>L1</td>
+              <td>1</td>
+              <td>1A</td>
+              <td>$20.000</td>
+          </tr>
+          <tr><!--"Registro 2"-->
+            <td >Jabon</td>
+            <td>J1</td>
+            <td>1</td>
+            <td>1B</td>
+            <td>$5.000</td> 
+          </tr>
+          <tr><!--"Registro 3"-->
+            <td >Alfombra</td>
+            <td>A1</td>
+            <td>1</td>
+            <td>1C</td>
+            <td>$50.000</td> 
+          </tr>
+          <tr><!--"Registro 4"-->
+            <td>Cojin</td>
+            <td>C1</td>
+            <td>1</td>
+            <td>1D</td>
+            <td>$15.000</td> 
+          </tr>
+          <tr><!--"Registro 5"-->
+            <td >Vajilla</td>
+            <td>V1</td>
+            <td>1</td>
+            <td>1E</td>
+            <td>$40.000</td> 
+          </tr>
+          <tr><!--"Registro 6"-->
+            <td >Vaso</td>
+            <td>V2</td>
+            <td>2</td>
+            <td>2A</td>
+            <td>$15.000</td> 
+          </tr>
+          <tr><!--"Registro 7"-->
+            <td >Copa</td>
+            <td>C2</td>
+            <td>2</td>
+            <td>2B</td>
+            <td>$20.000</td> 
+          </tr>
+          <tr><!--"Registro 8"-->
+            <td >Individual</td>
+            <td>I1</td>
+            <td>2</td>
+            <td>2C</td>
+            <td>$3.000</td> 
+          </tr>
+          <tr><!--"Registro 9"-->
+            <td >Cubiertos</td>
+            <td>C3</td>
+            <td>2</td>
+            <td>2D</td>
+            <td>$25.000</td> 
+          </tr>
+          <tr><!--"Registro 10"-->
+            <td >Organizador</td>
+            <td>O1</td>
+            <td>2</td>
+            <td>2E</td>
+            <td>$9.000</td> 
+          </tr>
+      </tbody>
+      </table>  
+    </main>
+  
+        <footer id="pie-de-pagina"><!--"pie de página"-->
+          <h5>© Grupo Sala 2, Daniela R. / Carlos R. / Daniel V. / Antonio J. - 2023</h5>
+        </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>   
+    <script src="funciones.js"></script>
+
+    <!--llamado a la acción-->
+    <script type="text/javascript" language="javascript">
+      $(document).ready( function () {
+      $('#myTable').DataTable();
+      } );
+     </script>
+
+    </body>
+    </html>

@@ -1,0 +1,34 @@
+#main-header {
+	background: rgb(190, 242, 255); /*cambia el color del fondo de la cabecera*/
+	color: rgb(30, 13, 184);
+	height: 50px;
+    text-align: center;
+}	
+
+a {
+    color:rgb(22, 214, 47); /*cambia el color de los links*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Bold{ 
+    font-weight: bold; 
+}
+
+body{
+    background-color: #f8ffdb79; /*cambia el color del fondo*/
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+#pie-de-pagina {
+    background-color: #ffc107; /*cambia el color del pie de pagina*/
+    position:absolute;           /*espacio footer*/
+    bottom:0;
+}
+
+.carousel-slide {
+    width: 600px;
+    height: 1200px; 
+}
